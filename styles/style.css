@@ -48,12 +48,25 @@ footer{
     box-sizing: border-box; 
     margin-top: .5rem;
 }
-#name{
-    height: 3.17rem;
+#full-name{
+    height: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Birthstone', cursive;
     background-color: white;
 
+}
+#pronoun{
+    color: white;
+    text-align: right;
+    margin-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}   
+.control{
+    display: flex;
+    margin:20px;
+    align-items: center;
+    position: relative;
 }

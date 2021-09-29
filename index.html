@@ -14,18 +14,55 @@
 
 <body>
 
-    <section id="id-container"> 
+    <section id="id-container">
+         
         <div class="background" id="id-background">
             <header  id="hello-my-name-is">
                 <H1>Hello</H1>
                 <H2>my name is</H2>
             </header>
-            <main id="name">
+            <main id="full-name">
                 <p>Steven Universe</p>
             </main>
-        
+            <div id="pronoun">pronoun</div>
         </div>
     </section>
+    
+    <section id="controls">
+        <label class = "control" for="name">Name:
+            <input id="your-name" type="text" placeholder=" your name here">
+            <button id="generate">update</button>
+        </label>
+        
+        <div class = "control" id="color-change">
+            <Label>Color:
+                <input id="new-color" type="color">
+                input
+            </label>
+            <button id="color-button">update</button>
+        </div>
+
+        <label class = "control" for="pronoun"> Pronoun:
+            <select id="new-pronoun">
+                <option value="he/him">he/him</option>
+                <option value="she/her">she/her</option>
+                <option value="they/them">they/them</option>
+                <option value="they/her">they/her</option>
+                <option value="they.him">they/him</option>
+            </select>
+            <button id="pronoun-button">update</button>
+        </label>
+    </section>
+
+    <footer>
+
+        <label for="name-counter">
+            Times you have updated: <span id="display">0</span>
+        </label>
+    </footer>
+    
+    
+
 
 
    
